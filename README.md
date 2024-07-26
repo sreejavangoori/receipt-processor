@@ -17,6 +17,13 @@ Follow the steps below to set up the Docker container and run the application af
 
 The server will be running on `localhost:3000`. A Postman collection is included for easier testing. After successfully completing the `POST` request, use the generated UUID in the response for the `GET` request.
 
+OR
+
+1. Run the Docker container:
+   ```
+   docker run -p 3000:3000 sreeja08/receipt-processor:v1
+   ```
+
 ## API Endpoints
 
 - **GET** : `localhost:3000/receipts/:receiptId/points`
